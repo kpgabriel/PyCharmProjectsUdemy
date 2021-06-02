@@ -1,3 +1,12 @@
-from turtle import Turtle
+from turtle import Turtle, Screen
 
-timmy_turtle = Turtle()
+tim = Turtle()
+my_screen = Screen()
+
+tim.shape("classic")
+for _ in range(4):
+    tim.forward(100)
+    tim.right(90)
+
+
+my_screen.exitonclick()
